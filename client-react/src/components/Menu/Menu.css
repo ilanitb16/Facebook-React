@@ -1,0 +1,87 @@
+.link{
+    text-decoration: none;
+    color:#212529;
+
+}
+
+.approve{
+    cursor: pointer;
+    display: inline-block;
+    right:45px;
+    position: absolute;
+    font-size: 20px;
+    bottom:2px
+}
+
+.remove{
+    cursor: pointer;
+    display: inline-block;
+    right:10px;
+    position: absolute;
+    font-size: 20px;
+    bottom:2px
+}
+
+.req{
+    position:relative;
+}
+
+.friend-name{
+   display: inline-block;
+}
+
+.friend-img{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #444;
+    margin: 0px 5px 0px 0px 
+}
+
+.inline{
+    display:inline-block;
+}
+
+h3{
+    color:#212529 !important
+}
+
+.friends-list{
+    margin-left: 65px;
+    margin-top:0px;
+    font-size: 14px;
+}
+
+ul{
+    padding-left: 0;
+    list-style-type: none;
+}
+
+li{
+    margin:7px 0 ;
+}
+
+.side-menu{
+    display: block !important;
+    margin-top: 30px;
+}
+
+.bi-menu{
+    color:#0866FF;
+    font-size: 20px;
+}
+
+.list-group-item{
+    padding-left:30px;
+    border-radius: 0;
+}
+
+.list-group-item:hover{
+    background-color:#E4E6E8 ;
+    border-radius: 0;
+}
+
+.bi-person-fill-add{
+    font-size: 22px;
+}

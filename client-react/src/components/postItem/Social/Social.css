@@ -1,0 +1,150 @@
+.likeButton:hover {
+    filter: invert(50%);
+    cursor: pointer;
+}
+.commentButton:hover {
+    filter: invert(50%);
+    cursor: pointer;
+}
+.shareButton:hover {
+    filter: invert(50%);
+    cursor: pointer;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: 15px auto 10px auto 
+  }
+  
+  .likeButton,
+  .commentButton,
+  .shareButton {
+    margin-right: 20px; /* Adjust the value to set the space between buttons */
+  }
+  
+.share-container {
+    display: flex;
+    align-items: center; /* Vertically center the icons */
+  }
+  
+  .social-icons {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-icons li {
+    margin-right: 10px; /* Adjust the value to set the space between social icons */
+  }
+  .social-icons li:hover {
+    transform: scale(1.5);
+    margin-right: 15px;
+  }
+  
+.whatsapp {
+    padding-left: 5px;
+}
+
+.editComment {
+  margin-left: 10px;;
+}
+
+
+/* -------------------------------> */
+
+.comment-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comments-section {
+  width: 95%;
+  margin: 10px auto;
+  border-top: 1px solid #ccc;
+  padding-top:20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.comment-input {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.comment-input input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+}
+
+.comment-input button {
+  padding: 8px 16px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #1877f2; /* Facebook blue color */
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+.comment-input button:hover {
+  background-color: #166fe5; /* Darker shade of Facebook blue on hover */
+}
+
+.comments {
+  padding: 10px;
+}
+
+.comment-item {
+  display: flex;
+  align-items: center;
+  
+}
+
+.img-profile-comments {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.commentsCount{
+  color: #0A58CA;
+   font-weight: bold;
+   display: inline-block;
+    margin-left: 5px;
+    line-height: 24px;
+}
+
+.bi-social{
+  color: #0A58CA;
+}
+
+.userInfoComment {
+  font-size: 14px;
+}
+
+.comment-actions {
+  margin-left: auto;
+  display: flex; /* Ensure the icons are in a flex layout */
+  align-items: center; /* Align the icons vertically */
+}
+
+.comment-actions i {
+  font-size: 16px; /* Adjust icon size */
+  margin-left: 5px; /* Adjust margin for spacing */
+  color: #888;
+  cursor: pointer;
+}
+
+.comment-actions i:hover {
+  color: #333;
+}

@@ -1,0 +1,28 @@
+.search-row{
+    width: 600px;
+    margin: 30px auto 0 auto;
+    
+}
+.search{
+    width:60% ;
+}
+
+.btn{
+    background-color: #fff;
+    border-left:none;
+    border-color: #ced4da;
+    padding:0;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.btn:hover{
+    border-color: #ced4da;
+    color: #212529
+}
+
+.txt-input{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}

@@ -1,0 +1,3 @@
+/home/oem/Projects/tcp/server/cmake-build-debug/CMakeFiles/server.dir
+/home/oem/Projects/tcp/server/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/oem/Projects/tcp/server/cmake-build-debug/CMakeFiles/rebuild_cache.dir

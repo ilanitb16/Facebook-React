@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.80df65ec.css",
+    "main.js": "/static/js/main.8648ef07.js",
+    "static/js/592.478a79a1.chunk.js": "/static/js/592.478a79a1.chunk.js",
+    "static/media/loader.gif": "/static/media/loader.91c863a38f1c334dc926.gif",
+    "static/media/Facebook_Logo_2019.png": "/static/media/Facebook_Logo_2019.f193f603cd34fc364b8c.png",
+    "index.html": "/index.html",
+    "main.80df65ec.css.map": "/static/css/main.80df65ec.css.map",
+    "main.8648ef07.js.map": "/static/js/main.8648ef07.js.map",
+    "592.478a79a1.chunk.js.map": "/static/js/592.478a79a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80df65ec.css",
+    "static/js/main.8648ef07.js"
+  ]
+}

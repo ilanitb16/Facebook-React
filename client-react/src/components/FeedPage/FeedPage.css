@@ -1,0 +1,87 @@
+.menu {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    z-index: 5;
+    padding:0
+  }
+
+.info {
+  position: fixed;
+  top: 0;
+  right: 10px;
+  z-index: 200;
+}
+
+#dark .menuObject{
+  filter: invert(100%);
+}
+#dark .menuObject:hover{
+  filter: invert(0%);
+
+}
+
+.textMenu {
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+.img-profile-user {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #444;
+  margin: 5px 10px 5px 5px;
+  
+}
+
+#dark .user-name {
+  filter: invert(100%);
+}
+
+#dark .icon{
+  filter: invert(100%);
+}
+
+.user-name{
+  color:#808080
+  
+}
+
+.user-name:hover {
+  color:#0d6efd
+}
+
+.profile-info{
+  color:#808080
+}
+
+#dark .authorInfo,
+#dark .card-title,
+#dark .card-description,
+#dark .threeDots,
+#dark .editPost,
+#dark .editButtons,
+#dark .comment-input,
+#dark .main-layout,
+#dark .friend-name,
+#dark .item-date,
+#dark .userInfoComment {
+  filter: invert(100%);
+}
+
+#dark .newPostContent,
+#dark .searchLine{
+  filter: invert(95%);
+}
+#dark .card-img,
+#dark .img-profile-user,
+#dark .img-profile {
+  filter: invert(5%);
+}
+
+.top{
+  min-height: calc(100vh - 60px);
+}

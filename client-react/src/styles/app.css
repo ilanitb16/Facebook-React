@@ -1,0 +1,19 @@
+#light,
+#light .search{
+  background-color: #f0f2f5;
+}
+
+#light .menu,
+#light .card {
+  background-color: #fff;
+}
+
+#dark,
+#dark .search {
+  background-color: #18191a;
+}
+
+#dark .menu,
+#dark .card {
+  background-color: #242526;
+}

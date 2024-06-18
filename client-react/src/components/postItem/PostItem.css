@@ -1,0 +1,196 @@
+.img-profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.post {
+    margin: 5px;
+}
+
+.col-1 {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.img-profile {
+    object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.img-profile-comments {
+    width: 25px;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 1px solid #000;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.top-card{
+    position:relative
+}
+
+.edit-area{
+    margin-left:20px;
+    display: inline-block;
+}
+
+.threeDots-item:hover {
+    cursor: pointer;
+}
+
+.absolute-left{
+    position: absolute;
+    width: 150px;
+    right: 12px;
+    padding-top:3px;
+}
+
+.edit{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    margin:0
+}
+
+.delete{
+    display: inline-block;
+    vertical-align: top;
+    margin:0 0 0 20px;
+    font-size: 14px;
+}
+
+.bi-sliders{
+    color:#0A58CA;
+    font-size: 16px;
+}
+.bi-trash3{
+    color:#0A58CA;
+    font-size: 16px;
+}
+.line{
+    width: 95%;
+    margin:0 auto;
+    height: 1px;
+    background-color:#ccc ;
+}
+
+.bottom{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card-body{
+    
+}
+
+.card-author{
+    margin-bottom:22px
+}
+
+.text-end{
+    margin-right: 15px;
+    display: inline-block;
+    margin-bottom: 15px;
+    vertical-align: bottom;
+}
+
+.flex-display{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 20px;
+}
+
+.bi-friend{
+    margin-left:30px;
+    color:#0A58CA;
+    cursor: pointer;
+}
+
+.display-name{
+    color:#0A58CA;
+}
+
+.edit-label{
+    width: 110px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.edit-input{
+    width: 500px;
+    padding:7px;
+    border:none;
+    border: 0.5px solid #ccc;
+    border-radius: 7px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.edit-desc{
+    width: 500px;
+    padding:7px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 0.5px solid #ccc;
+    border-radius: 7px 
+}
+.description{
+    margin-top:25px
+}
+.editImg{
+    margin-top:45px
+}
+.edit-image-input{
+    padding: 4px 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: #1877f2;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.editButtons{
+    margin-top:30px
+}
+
+.edit-btn{
+    padding: 4px 16px;
+    margin-right: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #1877f2;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.edit-img-title{
+    margin-left:15px
+}
+
+/*
+.card-img {
+    max-width: 500px; 
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+*/

@@ -1,0 +1,53 @@
+/* NewPost.css */
+
+.newPostContent {
+    padding: 20px;
+    text-align: center; /* Align content center */
+
+  }
+  
+  .newPostContent label {
+    font-weight: bold;
+  }
+  
+  .display-pic{
+    text-align: left;
+  }
+  .newPostContent input[type="text"],
+  .newPostContent textarea {
+    width: calc(100%); /* Subtract padding */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .newPostButtons {
+    margin-top: 5px;
+  }
+  
+  .newPostButtons button {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .btn-primary {
+    padding: 4px 16px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px !important;
+    background-color: #1877f2;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+  }
+
+  
+  .btn-primary:hover {
+    background-color: #166fe5; /* Darker shade of Facebook blue on hover */
+    border-color: #166fe5;
+  }
+
+  

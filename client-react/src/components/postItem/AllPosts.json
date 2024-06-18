@@ -1,0 +1,83 @@
+[
+  {
+    "title": "corvette c8",
+    "author": "ori levi",
+    "author_photo": "profile/profile1.jpg",
+    "description": "car",
+    "date": "25/1/2024",
+    "img": "./img/img1.jpg"
+  },
+  {
+    "title": "my dog <3",
+    "author": "ilanit berditchevski",
+    "author_photo": "profile/profile2.jpg",
+    "description": "The prettiest dog in the world.",
+    "date": "26/1/2024",
+    "img": "img/laylaFlower.jpg"
+  },
+  {
+    "title": "mercedes gts",
+    "author": "shmuel granot",
+    "author_photo": "profile/profile3.jpg",
+    "description": "car",
+    "date": "27/1/2024",
+    "img": "img/img3.jpg"
+  },
+  {
+    "title": "koenigsegg one",
+    "author": "dvir yazdi",
+    "author_photo": "profile/profile4.jpg",
+    "description": "car",
+    "date": "28/1/2024",
+    "img": "img/img4.jpg"
+  },
+  {
+    "title": "aston martin",
+    "author": "tzuriel luzon",
+    "author_photo": "profile/profile5.jpg",
+    "description": "car",
+    "date": "29/1/2024",
+    "img": "img/img5.jpg"
+  },
+  {
+    "title": "lamborghini aventador svj",
+    "author": "noam leibovich",
+    "author_photo": "profile/profile6.jpg",
+    "description": "car",
+    "date": "30/1/2024",
+    "img": "img/img6.jpg"
+  },
+  {
+    "title": "with my best friend",
+    "author": "daniel cohen",
+    "author_photo": "profile/Daniel.jpg",
+    "description": "some quality time in Gan Yavne with the best dog ever!",
+    "date": "1/2/2024",
+    "img": "img/laylaDaniel.jpeg"
+  },
+  {
+    "title": "dogging :)",
+    "author": "layla berdit",
+    "author_photo": "profile/laylaSmiling.jpg",
+    "description": "<3",
+    "date": "2/2/2024",
+    "img": "img/laylaFlower2.jpg"
+  },
+  {
+    "title": "toyota supra",
+    "author": "arnon lutsky",
+    "author_photo": "profile/profile9.jpg",
+    "description": "car",
+    "date": "3/2/2024",
+    "img": "img/img9.jpg"
+  },
+  {
+    "title": "porche 918-spider",
+    "author": "or hazav",
+    "author_photo": "profile/profile10.jpg",
+    "description": "car",
+    "date": "4/2/2024",
+    "img": "img/img10.jpg"
+  }
+
+]

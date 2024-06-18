@@ -1,0 +1,123 @@
+h3 {
+    color: grey;
+    font-size: 16px;
+  }
+
+  .account-main{
+    height: 100vh;
+  }  
+  
+  .registration-container {
+      background-color: #f0f2f5;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+    }
+    
+    .registration-logo {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 20px;
+      background-image: url('../../styles/Facebook_Logo_2019.png'); /* Facebook logo image */
+      background-size: cover;
+      position: relative;
+    }
+  
+    .logo-text{
+      color: #1877f2; 
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      font-size: 60px;
+      margin-bottom: 5px;
+    }
+    
+    .registration-box {
+      background-color: #fff;
+      border: 1px solid #dddfe2;
+      box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
+      width: 560px;
+      padding: 40px;
+      text-align: center;
+      border-radius: 10px;
+      padding-bottom:20px;
+      margin: 50px auto;
+      
+    }
+    
+    .registration-header {
+      border-bottom: #bebebe;
+      border-width: 1px;
+      border-style:inset;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+    }
+  
+    .birthday-title{
+      text-align: left;
+      color: gray;
+    }
+    
+    .registration-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .registration-input {
+      padding: 20px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+    .registration-input.left{
+      margin-right: 10px;
+    }
+    .registration-input.right{
+      margin-left: 10px;
+    }
+    .error-message{
+      font-size: 12px; 
+      color: red;
+      display: block; /* Display on a new line */
+      margin-top: -4px; 
+      position:'absolute' !important;
+      text-align: left;
+    }
+  
+    .registration-button {
+    background-color: #42b72a; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 25px; 
+    cursor: pointer; 
+    border-radius: 5px;
+    }
+  
+    .registration-button:hover {
+      background-color: #36a420; 
+    }
+  
+    .name_inputs{
+      display: flex !important; 
+    }
+  
+    .form-group {
+      margin-bottom: 5px;
+    }
+  
+    .avatar {
+      width: 61px;
+      height: 61px;
+      object-fit: cover;
+      margin-left: 20px;
+      border-radius: 5px;
+    }
+  
+    
