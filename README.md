@@ -1,46 +1,85 @@
-# Multithreaded Client-Server Application with Bloom Filter Integration
+# Web (React) Application README
+## Introduction
+This web application is part of the larger exercise to develop a full-fledged social media platform. It serves as the frontend component, interacting with the backend server to provide various features to users, such as registration, authentication, posting, friend management and more. The application is built using React, ensuring a responsive and interactive user experience.
 
-This repository contains the implementation of a multithreaded client-server application with bloom filter integration. The application is designed to handle multiple client connections simultaneously, communicate using a defined protocol, and filter suspicious URLs in posts using a bloom filter.
 ## Features
+- User registration and authentication
+- User login/logout functionality
+- Displaying a feed of posts from friends and non-friends
+- Posting new content
+- Viewing user profiles and their posts
+- Editing and deleting user posts (only the owner)
+- Friend management functionalities: adding, removing, and accepting friend requests
 
-- **Multithreading**: The server is implemented to handle multiple client connections concurrently using multithreading, providing efficient communication and responsiveness.
-  
-- **Protocol Implementation**: A communication protocol is defined and implemented between clients and the server, ensuring structured interaction and data exchange.
+## Prerequisites
+Before setting up the web application, ensure you have the following prerequisites:
+- Node.js installed on your machine
+- A compatible web browser (e.g., Chrome, Firefox, Safari)
 
-- **Bloom Filter Integration**: The application integrates with a bloom filter to filter suspicious URLs in posts, enhancing security and trustworthiness of the content.
+## Installation
+1.	Clone the repository to your local machine:
+```
+https://github.com/ilanitb16/dynamic-client-server.git
+```
+2.	Navigate to the project directory:
+``` 
+cd client-react
+```
+3.	Install dependencies using npm:
+```
+ npm install 
+```
+## Configuration
+No specific configuration is required for the web application. However, ensure that the backend server is running and accessible at the specified API endpoints.
 
-## Setup
-
-To run the application, follow these steps:
-
-1.	**Clone the Repository**: Clone this repository to your local machine using the following command:
-  ```
-  git clone https://github.com/ilanitb16/dynamic-client-server.git
-  ```
-
-2. Follow The instructions in the wiki folder under setup.md.
-
-3. Follow The instructions in the wiki folder under execution.md.
+## Running the Application
+To start the web application, navigate to the server directory and run:
+```
+Node index.js
+```
+This command will start a development server, and the application will be accessible at `http://localhost:3000` by default.
+NOTE: If you made any modifications in our project, to access the app on the server, you must run npm run build in the client-react directory first, then copy it's content into public folder in the client-react directory and then run node.js server as described above. 
 
 ## Usage
+Once the application is running, you can access it via a web browser by navigating to `http://localhost:3000`. From there, you can register as a new user, log in with existing credentials, view your feed, post new content, manage friends, and perform other actions as described in the features section.
 
-Once the server and client are running, you can perform the following actions:
+## API Endpoints
+The web application interacts with the backend server through a set of API endpoints. Refer to the backend README for detailed information on the API endpoints and their functionalities.
 
-- Connect to the server using the client application.
-- Send requests to the server.
-- Receive responses from the server based on the requested actions.
+## Visual Examples of the functionalities:
 
-## NOTE:
-Explenation to the person checking this task. For this project we separated from previous teams. Therefore we had to open a new git repository so our projects would be seperated from now on. In the very first commits you can see the react and android code are "inserted" to the folders client-react and client-android. This is because all of the commits were in a different git repo. The contribution to these projects can be found in this repo:
+ ### Home Page
+ Hompage which allows to see 20 posts of friends (sorted by date) and 5 posts of other users (which are NOT the current user).
+![image](https://github.com/ilanitb16/facebook-ex2/assets/97344492/e93b4103-2468-4266-99db-5f7833599613)
 
-https://github.com/ilanitb16/facebook-ex2.git
-https://github.com/ShmuelGranot/Facebook-iso-APP.git
+### User's Page
+A page full of posts only the current user posted. Is accessible by pressing the name of the user displayed in the right corner of the screen.
+![image](https://github.com/ilanitb16/facebook-ex2/assets/97344492/0c1de117-e3d8-44f8-809c-016a9ba35d88)
 
-## Detailes on the work proccess: 
-The following branches were used:
--	The main branch which is where all the code will be. This is the branch to be checked. After finishing the work on all the branches, they were merged into the main branch. After the tcp was properly functioning, minor changes to the node.js server were made to handle the URLs as requested in the task. 
--	The server-dev branch which includes the react site code along with the code of the node.js server. Note (Ilanit): developed in it prior to the start of this part (on accident, I thought that each part was supposed to have a different repository so I started the development there), which is why you might see some old commits.
--	The android branch. Dedicated to filling in missing parts in previoius code and overall improving this app. It was important to us that the final project will be as good as possible, so we decided to completely improve it and submit a new version in hopes that this would effect the project for the better.
--	The tcp-server branch. A branch used for developing the multithreaded tcp server. The integration of the bloom filter was also done there. Also minor changes in the node.js server.
 
-None of the branches were deleted after the merge on purpose so the work flow would be clear and easier to check. The final version is in the main branch.
+### Friends
+- successful request notification + actual request can be seen under the user's requests.
+- request already exists.
+- Friends list.
+
+  ![image](https://github.com/ilanitb16/facebook-ex2/assets/97344492/c8f71224-d42b-41cf-be3e-ebed9098c33a)
+  ![image](https://github.com/ilanitb16/facebook-ex2/assets/97344492/cf5374d1-2681-4215-aeb9-ecbcdfa265ca)
+  ![image](https://github.com/ilanitb16/facebook-ex2/assets/97344492/00ed5707-9429-467a-bb7a-9ebe2c3bb02e)
+  ![image](https://github.com/ilanitb16/facebook-ex2/assets/97344492/da8c865b-a711-4f85-abc6-97d238483a54)
+
+
+  ### Working Search
+  ![image](https://github.com/ilanitb16/facebook-ex2/assets/97344492/f5e6ec19-0e2f-4dad-ae10-ec9e970f97ef)
+
+  ### Login and Registration
+
+  ![image](https://github.com/ilanitb16/facebook-ex2/assets/97344492/85a31e15-8605-42d5-827e-3aca8096a066)
+  ![image](https://github.com/ilanitb16/facebook-ex2/assets/97344492/2c7509d3-e79c-4d5b-a633-7ec6e11c7909)
+  ![image](https://github.com/ilanitb16/facebook-ex2/assets/97344492/b71b4243-7e95-4631-bd42-70a338836123)
+  ![image](https://github.com/ilanitb16/facebook-ex2/assets/97344492/5703bae4-d1d5-47f8-8529-6958121f3dc5)
+
+  ### Update User
+  ![image](https://github.com/ilanitb16/facebook-ex2/assets/97344492/049b1375-5d91-471a-9686-b118a3e65513)
+
+  ### New Post
+  ![image](https://github.com/ilanitb16/facebook-ex2/assets/97344492/73b70179-23e8-4974-b4c2-545c907d26cd)
